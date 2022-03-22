@@ -1,0 +1,130 @@
+{
+	"id": "3a9c08ec-4c4e-4122-9819-8e6f3b8f236c",
+	"name": "Google Map",
+	"timestamp": "2022-03-10T07:27:33.527Z",
+	"collection_id": "19955280-7406fda5-4737-42ff-8842-70b4749544fd",
+	"folder_id": 0,
+	"environment_id": "19955280-0e3876b9-e363-4a32-b671-27ed19f31548",
+	"totalPass": 25,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "46f112d2-ce70-4a82-b975-c00e4a6a34ff",
+			"name": "Add",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status": true,
+				"Scope": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Status": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Scope": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				134,
+				77,
+				89,
+				81,
+				103
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status": true,
+					"Scope": true
+				},
+				{
+					"Status code is 200": true,
+					"Status": true,
+					"Scope": true
+				},
+				{
+					"Status code is 200": true,
+					"Status": true,
+					"Scope": true
+				},
+				{
+					"Status code is 200": true,
+					"Status": true,
+					"Scope": true
+				},
+				{
+					"Status code is 200": true,
+					"Status": true,
+					"Scope": true
+				}
+			]
+		},
+		{
+			"id": "6cab2d68-d353-4951-bd4d-73f8bf9ef58f",
+			"name": "Delete",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				113,
+				120,
+				129,
+				135,
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 1112,
+	"collection": {
+		"requests": [
+			{
+				"id": "46f112d2-ce70-4a82-b975-c00e4a6a34ff",
+				"method": "POST"
+			},
+			{
+				"id": "6cab2d68-d353-4951-bd4d-73f8bf9ef58f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
